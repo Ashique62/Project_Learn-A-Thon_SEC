@@ -1,0 +1,127 @@
+body
+*{
+    margin:0 auto;
+    padding:0;
+}
+header{
+    background-color: black;
+    padding:20px;
+
+}
+header h1{
+    color:aliceblue;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+nav{
+    background-color: black;
+    padding:20px;
+    text-align: center;
+}
+nav a{
+    color:skyblue;
+    text-decoration: none;
+    padding:20px;
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a:hover{
+    color:red;
+    padding:20px;
+}
+.banner img{
+    width:1887px;
+    display:block;
+}
+.image-container {
+    position: relative;
+    width: 100px;
+    height: 95px;
+    overflow: hidden;
+    box-shadow: 0, 4px, 8px rgba(0,0,0,0.1);
+}
+.container{
+    display: flex;
+    justify-content: space-between; /* Optional: add space between the boxes */
+    padding: 1px;
+    width:100%;
+}
+.box1{
+    width:46%; /* Adjust width to fit within the container */
+    background-color: brown;
+    padding:65px;
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:10,0,0,0;
+    color:lightblue;
+    text-align: center;
+}
+.box2{
+    width:46%; /* Adjust width to fit within the container */
+    background-color:chocolate;
+    padding:64px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0,10;
+    text-align: center;
+}
+.footer-container {
+    background-color:rgb(51, 50, 50);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.footer-section {
+    width: 10%;
+}
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+.footer-section p, .footer-section a {
+    color: green;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    color: wheat;
+}
+.footer-bottom {
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.back-to-top {
+    color:grey;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform:translate(50%);
+}
+
+.back-to-top:hover {
+    color: whitesmoke;
+}
+
+footer form input {
+    padding: 5px;
+    border: none;
+    border-radius: 0px;
+}
+
+footer form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: brown;
+    color:white;
+    cursor: pointer;
+}
